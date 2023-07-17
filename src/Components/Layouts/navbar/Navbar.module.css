@@ -1,0 +1,110 @@
+.navbarcontainer {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  padding: 1.3rem;
+  background-color: rgb(234, 0, 0);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: cursive;
+}
+
+.logo span {
+  font-family: cursive;
+}
+
+.navbarcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+.container {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-size: 5rem;
+  font-weight: 900;
+  position: sticky;
+  top: 0;
+}
+
+.Home {
+  display: flex;
+  justify-content: center;
+}
+
+.cartlink {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+  color: white;
+  font-size: 1.8rem;
+  z-index: 2;
+  display: none;
+}
+
+.container a {
+  text-decoration: none;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  color: aliceblue;
+  font-family: cursive;
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    font-size: 1.2rem;
+    font-family: monospace;
+  }
+  .menu {
+    display: block;
+    position: fixed;
+    top: 23px;
+  }
+
+  .navbarcontainer {
+ 
+    
+    flex-direction: column;
+    align-items: start;
+    padding: 1.9rem;
+    
+  }
+
+  .container {
+    display: none;
+  }
+
+  .navbarcontainer.open .container {
+    display: flex;
+  }
+
+  .navbarcontainer.open .container {
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    padding: 1rem;
+    color: aliceblue;
+  }
+}
