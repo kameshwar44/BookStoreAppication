@@ -21,7 +21,7 @@ function Navbar() {
       <ul className={`${style.navbarcontainer} ${menuOpen ? style.open : ""}`}>
        
           <Link to="/" className={style.logo}>
-            Books<span className={style.textprimary}>Pedia</span>
+         <p><span style={{ color: "blue"}} > Books</span>Pedia</p>  
           </Link>
         
         <ul className={`${style.container}`}>

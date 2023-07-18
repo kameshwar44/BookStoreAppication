@@ -4,3 +4,15 @@
 .containers{
     margin: 100px;
 }
+
+@media only screen and (max-width:480px) {
+    .containers{
+        margin: 50px;
+    }
+
+    h2{
+        font-size: smaller;
+        color: blue;
+    }
+    
+}
