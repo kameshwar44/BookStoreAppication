@@ -14,6 +14,8 @@ function App() {
   const [cartItems, setCartItems] = useState([]);
   const [totalAmount, setTotalAmount] = useState(0);
 
+  
+
   useEffect(() => {
     let total = 0;
     cartItems.forEach((item) => {

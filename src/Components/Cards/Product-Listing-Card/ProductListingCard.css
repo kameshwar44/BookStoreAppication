@@ -47,7 +47,8 @@
   justify-content: center;
   background-color: var(--primary-color-bright);
   height: 2.5rem;
-  width: auto;
+  width:150px;
+  margin: 5px;
   text-align: center;
   color: white;
   font-family: Chivo Mono;
