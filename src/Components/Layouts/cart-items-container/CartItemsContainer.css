@@ -2,3 +2,10 @@
     padding: 3% 0;
 }
 
+
+@media only screen and (max-width: 680px) {
+    .cart-items-container {
+        padding: 25% 0;
+    }
+    
+}

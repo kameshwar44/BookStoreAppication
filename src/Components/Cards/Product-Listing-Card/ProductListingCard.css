@@ -65,7 +65,7 @@
   background-color: #000;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 680px) {
   .product-listing-card {
     display: flex;
     align-items: center;
