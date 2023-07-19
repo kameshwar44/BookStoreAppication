@@ -53,6 +53,6 @@ To deploy this project run
   Deployement Link ✌🤞
 ```
 ```bash
- https://booksstoreapplication.netlify.app/
+ https://bookspedia-booksstore.netlify.app/
 ```
-https://booksstoreapplication.netlify.app/
+https://bookspedia-booksstore.netlify.app/
