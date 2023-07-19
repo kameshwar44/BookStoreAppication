@@ -35,7 +35,7 @@ HTML and CSS: Used for the structure and styling of the application.
 Install my-project with npm
 
 ```bash
-  git clone https://github.com/kameshwar44/BookstoreApplication.git
+  git clone https://github.com/kameshwar44/BooksStoreApplication.git
 ```
 
 ```bash
@@ -53,6 +53,6 @@ To deploy this project run
   Deployement Link ✌🤞
 ```
 ```bash
- https://bookspedia-bookstore.netlify.app/
+ https://booksstoreapplication.netlify.app/
 ```
-https://bookspedia-bookstore.netlify.app/
+https://booksstoreapplication.netlify.app/
